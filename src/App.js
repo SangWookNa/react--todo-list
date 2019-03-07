@@ -34,7 +34,7 @@ class App extends Component {
     const { input, todos ,color }=this.state;
     this.setState({
       input : '',
-      // concat 을 사용하여 배열에 추가하였습니다
+      // concat 을 사용하여 배열에 추가하였습니다다다다
       todos : todos.concat({
         id : this.id++,
         text : input,
