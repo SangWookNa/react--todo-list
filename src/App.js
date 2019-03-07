@@ -34,7 +34,7 @@ class App extends Component {
     const { input, todos ,color }=this.state;
     this.setState({
       input : '',
-      // concat 을 사용하여 배열에 추가
+      // concat 을 사용하여 배열에 추가하였습니다
       todos : todos.concat({
         id : this.id++,
         text : input,
@@ -45,7 +45,7 @@ class App extends Component {
   }
 
   handleKeyPress = (e) => {
-    //눌려진 키가 Enter 면 handleCreate 호출
+    //눌려진 키가 Enter 면 handleCreate 호출하였습니다
     if(e.key === 'Enter'){
       this.handleCreate();
     }
